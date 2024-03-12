@@ -1,0 +1,64 @@
+body{
+    background-color: aqua;
+    animation-name: clr;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes clr{
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: cadetblue;
+    }
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:brown;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    border-radius: 100px;
+    animation: move 1s ease-in-out 1s infinite;
+    position: relative;
+}
+@keyframes move{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 300px;
+
+    }
+    50%{
+        left: 300px;
+        top: 300px;
+
+    }
+    75%{
+        top: 300px;
+        left: 0;
+    }
+     100%{
+        top: 0;
+        left: 0;
+     }
+}s
