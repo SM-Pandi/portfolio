@@ -349,7 +349,7 @@ html {
     padding: 15px;
     border-bottom: 0.5px solid gray;
     width: 45%;
-    font-size: 14px;
+    font-size: 17px;
 
 
 }
@@ -357,22 +357,16 @@ html {
 .input textarea {
     padding-top: 15px;
     padding-left: 10px;
+    font-size: 17px;
     border: none;
     outline: none;
     border-bottom: 0.5px solid gray;
-}
-
-textarea {
     display: flex;
     align-items: flex-start;
     width: 100%;
 }
 
-#desc {
-    font-size: larger;
 
-
-}
 
 .input button {
     color: whitesmoke;
@@ -804,12 +798,13 @@ textarea {
         padding: 15px;
         border-bottom: 0.5px solid gray;
         width: 45%;
-        font-size: 14px;
+        font-size: 15px;
 
 
     }
 
     .input textarea {
+        font-size: 15px;
         padding-top: 15px;
         padding-left: 10px;
         border: none;
@@ -817,18 +812,8 @@ textarea {
         border-bottom: 0.5px solid gray;
     }
 
-    textarea {
-        display: flex;
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    #desc {
-        font-size: larger;
-
-
-    }
-
+ 
+  
     .input button {
         color: whitesmoke;
         background-color: black;
@@ -1404,19 +1389,13 @@ textarea {
         padding-top: 15px;
         padding-left: 10px;
         font-size: 15px;
+        /* color: rebeccapurple; */
         border: none;
         outline: none;
         border-bottom: 0.5px solid gray;
         
     }
 
-
-    #desc {
-        /* font-size: larger; */
-        font-size: 17px;
-
-
-    }
 
     .input button {
         color: whitesmoke;
