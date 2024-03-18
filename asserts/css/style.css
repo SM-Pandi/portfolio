@@ -905,7 +905,7 @@ textarea {
         width: 100vw;
         height: 100vh;
         overflow-y: scroll;
-        overflow-x: scroll;
+        overflow-x: hidden;
 
 
     }
@@ -1403,18 +1403,13 @@ textarea {
 
         padding-top: 15px;
         padding-left: 10px;
+        font-size: 15px;
         border: none;
         outline: none;
         border-bottom: 0.5px solid gray;
         
     }
 
-    textarea {
-        display: flex;
-        align-items: flex-start;
-        width: 100%;
-        font-size: 17px;
-    }
 
     #desc {
         /* font-size: larger; */
